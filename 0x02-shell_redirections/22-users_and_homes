@@ -1,2 +1,2 @@
 #!/bin/bash
-all users and home dir
+ grep -oP '^[^:]+|.*:\K[^:]+(?=:[^:]+)' /etc/passwd | perl -pe 's/\n/ : / if $.%2' | sort
