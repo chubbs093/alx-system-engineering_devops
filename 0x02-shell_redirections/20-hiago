@@ -1,4 +1,2 @@
-
-
 #!/bin/bash
-letter c and C
+tr -d "cC"
