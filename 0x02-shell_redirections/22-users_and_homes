@@ -1,2 +1,2 @@
 #!/bin/bash
-all users and home dir
+cut -d : -f 1,6 /etc/passwd
