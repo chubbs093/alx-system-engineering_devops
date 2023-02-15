@@ -1,0 +1,3 @@
+#!/bin/bash
+you="whoami"
+echo "Hello $you"
